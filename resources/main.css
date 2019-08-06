@@ -86,7 +86,7 @@
     line-height: 22px;
     margin-bottom: 0px;
     margin-left: 0px;
-    margin-right: 53px;
+    margin-right: 25px;
     margin-top: 0px;
     opacity: 1.00;
     padding-bottom: 12px;
@@ -277,6 +277,37 @@ a.class9:hover {
 
 div { 
     overflow: visible; 
+}
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 17%;
+  padding: 0px;
+        
+}
+.column2 {
+  float: left;
+  width: 83%;
+  padding: 0px;
+}
+.column25 {
+  float: left;
+  width: 25%;
+  padding: 0px;
+}
+
+.column33 {
+  float: left;
+  width: 33%;
+  padding: 0px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 img { 
     border: none; 
