@@ -20,10 +20,18 @@
     <title>Kacper Kowalczyk</title>
     <link rel="stylesheet" type="text/css" media="screen,print" href="./resources/main.css">
   </head>
+  
+<script>
+function upDown(x){
+var y=document.getElementById(x);
+if(y.style.display=="none"){y.style.display="block"}
+else{y.style.display="none"}
+}
+</script>    
     
   <body style="background: rgb(255, 255, 255); margin: 0pt; " onload="onPageLoad();">
     <div style="text-align: center; ">
-      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  background: rgb(255, 255, 255); text-align: left; width: 700px; " id="body_content">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: visible; position: relative; word-wrap: break-word;  background: rgb(255, 255, 255); text-align: left; width: 700px; " id="body_content">
         <div style="float: left; margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
           <div style="height: 0px; line-height: 0px; " class="bumper">&nbsp;</div>
           <div style="clear: both; height: 0px; line-height: 0px; " class="spacer">&nbsp;</div>
@@ -54,40 +62,96 @@
                 
                 <div class="graphic_textbox_layout_style_default">
             
-                <p class="paragraph_style_3">Recent talks <br></p>
-                    <p class="paragraph_style_4"> ‘Transfinite transitivity’, Ockham Society, Oxford, October 2019<br></p>
-                    <p class="paragraph_style_4"> ‘Comments on Keith Hankins’s “Social Choice and the Tradeoff Between Utilizing and Imputing Information”’, Collective Intentions and the Act of Voting conference, Oxford, July 2019<br></p>
-                    <p class="paragraph_style_4"> ‘Yet another argument against anti‑aggregation’, Formal Ethics Conference, Ghent, June 2019<br></p>
-                    <p class="paragraph_style_4"> ‘Equality and population size’, Princeton Population Ethics Conference, Graduate Session, May 2019<br></p>
-                    <p class="paragraph_style_4"> ‘Intrinsic value, extrinsic identity’, ISUS conference, Karlsruhe, July 2018<br></p>
-                    <p class="paragraph_style_4"> ‘Intrinsic value, extrinsic identity’, CEPPA Graduate Conference, St Andrews, February 2018<br></p>
-               
-                    <p class="paragraph_style_3">Work in progress <br></p>
-                     <p class="paragraph_style_4"> 'Transfinitely transitive value'<br></p>
-                         <p class="paragraph_style_4"> <i>Abstract</i>: This paper develops transfinite extensions of transitivity and acyclicity principles in axiology, and applies them to the problem of evaluating outcomes where different numbers of people exist. In that context transfinite transitivity can be used to argue that it is always good to add good lives, bad to add bad lives, and neutral to add neutral lives, where the value of a life is understood as the value for its subject. This conclusion rules out many prominent theories of how to compare outcomes where different numbers of people exist, such as average and critical level utilitarianism and it allows us to reduce variable population axiology to fixed population axiology. As a generalization of the controversial but popular principle of transitivity, transfinite transitivity is intuitively appealing and can be seen as similarly fundamental in axiology. The results of this paper therefore promise to break new ground in the field of population axiology. Transfinite transitivity and related principles are also compared to the better known principles of continuity and hypersensitivity avoidance.<br></p>
-                     <p class="paragraph_style_4"> 'Risky existential question and the repugnant conclusion' (joint work with Michal Masny) <br></p>        
-                         <p class="paragraph_style_4"> <i>Abstract</i>: In "An Intrapersonal Addition Paradox" (2019), Jake Nebel presents a novel argument for the Repugnant Conclusion which is meant to be more compelling than the existing ones. This paper develops a range of responses to this argument. Along the way, it addresses a number of issues whose importance extends to the whole field of population ethics: the individual value of prospects involving a chance of nonexistence, the adequacy of perfectionism, the "containers of value" objection, and the relevance of the ex ante/ex post distinction in variable-population contexts.<br></p>  
-                     <p class="paragraph_style_4"> 'Yet another argument against anti-aggregation' <br></p>
-                         <p class="paragraph_style_4"> <i>Abstract</i>: Anti aggregationists cannot accept all of the following principles (construed in terms of permissible choice): Weak Ex Ante Pareto, Weak Statewise Dominance, Risk Tolerance, and No Moral Dilemmas. This forces them to choose between ex ante and ex post approaches to anti aggregation. The trouble is that they should accept restricted versions of Weak Ex Ante Pareto and Weak Statewise Dominance, and it is hard to accept their restricted but not full versions. While this last argument relies on ruling out cyclical choice patterns, standard anti aggregationist treatment of such cycles doesn’t work in this case. Anti aggregationists also cannot appeal to resources that egalitarians have used in response to similar problems regarding ex post/ex ante inequality. In the case of anti aggregationism, the ex post/ex ante inconsistency can lead to the so called “problem of ex ante rules” which turns out to be less tractable than has been thought. While no decisive disproof of anti aggregationism is offered, its defence is made substantially more difficult.<br></p>
-                     <p class="paragraph_style_4"> 'Allais preferences are bad for you' <br></p>
-                         <p class="paragraph_style_4"> <i>Abstract</i>: There has been a long debate about the rationality of Allais preferences. This paper is about the ethics of Allais preferences. It shows that if Allais preferences track individual betterness, then we cannot hold on to independently plausible ethical principles: ex ante Pareto, statewise dominance and anonymity. The paper considers the egalitarian challenge to this combination of principles and shows that it does not apply here. There is little other reason to doubt their current application. The suggested conclusion is that Allais preferences cannot track individual betterness after all. In short, Allais preferences are bad for you.<br></p> 
-                     <p class="paragraph_style_4"> 'Egalitarianism and population size' <br></p>
-                         <p class="paragraph_style_4"> <i>Abstract</i>: There are two kinds of egalitarianism: communal and weighted. According to the former, the value of an outcome is the result of balancing total wellbeing and the badness of inequality. According to the latter, it is the result of aggregating people’s wellbeing while giving priority to the relatively worse off. Unlike communal egalitarianism, weighted egalitarianism escapes the levelling down objection and can be supported by a veil of ignorance argument. While the two kinds of egalitarianism can generate the same verdicts in same number cases, they diverge in different number cases in a way which poses a significant dilemma for weighted egalitarians. On the one hand, they have good reasons to accept limited principles of existence independence which leads to a specific formula for calculating the value of an outcome. On the other hand, the most straightforward application of this formula in different number cases yields counterintuitive verdicts which are at odds with egalitarian thinking. The dilemma suggests that weighted egalitarianism is not egalitarian, after all, so egalitarians should accept communal egalitarianism instead.<br></p> 
-                     <p class="paragraph_style_4"> 'Risk times infinity' <br></p>
-                         <p class="paragraph_style_4"> <i>Abstract</i>: This paper introduces a new puzzle for utilitarianism in infinite worlds. It shows that ex ante Pareto and statewise dominance are incompatible with a nearly uncontroversial utilitarian claim about outcomes where infinitely many people exist. The three principles at issue are then clarified and defended. The incompatibility means that utilitarianism is ex ante/ex post inconsistent in infinite worlds. It is well known that ex ante/ex post inconsistency is a source of problems for egalitarians and prioritarians in finite worlds.  It turns out that utilitarians share these problems. The paper then explains how the problem is an example of an “infinite free lunch” and how it is related to other problem cases for utilitarianism in infinite worlds. <br></p>
+            <p class="paragraph_style_3">Thesis <br></p>
+                    <p class="paragraph_style_4"> 'Persons, populations, and value' <a href="resources/ThesisIntroWebsite.pdf">[introduction]</a></p>
                     
-                     <p class="paragraph_style_4"> 'Continuum and incomparability'<br></p>
+            <p class="paragraph_style_4"> &nbsp;&nbsp;&nbsp;&nbsp;Supervisors: Ralf Bader, Teru Thomas<br></p>
+            <p class="paragraph_style_4"> &nbsp;&nbsp;&nbsp;&nbsp;Examiners: Andreas Mogensen, Alex Voorhoeve<br></p>
+        
+                    <p></p>
                     
-                     <p class="paragraph_style_4"> 'Transfinite transitivity and rational choice'<br></p>
+            <p class="paragraph_style_3">Publications <br></p>
+            
+            <p class="paragraph_style_4"><a href='https://academic.oup.com/pq/advance-article-abstract/doi/10.1093/pq/pqab005/6173877'>'Transfinitely transitive value'</a>, forthcoming in <i>The Philosophical Quarterly.</i> <a  href='javascript:void(0)' onclick="return upDown('abstract1')">[abstract]</a></p>
+                
+            <blockquote id='abstract1' class="paragraph_style_5" style='display:none'><i>Abstract</i>: This paper develops transfinite extensions of transitivity and acyclicity in the context of population ethics. They are used to argue that it is better to add good lives, worse to add bad lives, and equally good to add neutral lives, where a life’s value is understood as personal value. These conclusions rule out a number of theories of population ethics, feed into an argument for the repugnant conclusion, and allow us to reduce different number comparisons to same number ones. Challenges to these arguments are addressed, including the issue of comparing existence and nonexistence in terms of personal value, the possibility of minimal quanta of time and life, and the meaningfulness of measuring closeness between outcomes with different population sizes. An asymmetry is uncovered between transfinite cycles of worseness and betterness, supporting a version of the weak procreative asymmetry. Transfinite transitivity principles are also favourably compared to the better known principles of continuity.</blockquote>
+                    
+            <p class="paragraph_style_3">Work in progress <br></p>
 
-                     <p class="paragraph_style_4"> 'Johnston versus Johnston'<br></p>
-                    
-                     <p class="paragraph_style_4"> 'Intrinsic value, extrinsic identity'<br></p>
+            <p class="paragraph_style_4"> A paper on the personite problem
+            
+            <a  href='javascript:void(0)' onclick="return upDown('abstract11')">[abstract]</a></p>
+                
+            <blockquote id='abstract11' class="paragraph_style_5" style='display:none'><i>Abstract</i>: Personites are like continuant people but shorter lived. Johnston has recently argued that their existence is incompatible with any plausible form of ethics and, so, they cannot exist. He suggests that broadly naturalistic accounts of our place in the world must also, therefore, be wrong. I will argue that Johnston’s arguments fail. To do that I propose an alternative account of intrinsicness, defend arguments from above against arguments from below, and clarify the meaning of reductionism about persons. I also show that commonsense ethics is far from unworkable even if persons and personites can’t differ in moral status. My arguments draw on Johnston’s earlier debate with Parfit about personal identity and the place of ordinary concerns in a naturalistic world. I conclude by identifying general lessons about the ethics metaphysics relationship and by sketching a more pressing but metaphysics free problem that naturally arises from Johnston’s recent discussion.</blockquote>                    
 
-                     <p></p>                   
+            <p class="paragraph_style_4"> A paper on egalitarianism and population ethics
                     
-                    <p class="paragraph_style_4"><i>If you are interested in reading any of my drafts, send me an email at kacper dot kowalczyk at philosophy.ox.ac.uk.</i><br></p>
-                   
+            <a  href='javascript:void(0)' onclick="return upDown('abstract4')">[abstract]</a></p>
+                
+            <blockquote id='abstract4' class="paragraph_style_5" style='display:none'><i>Abstract</i>: According to communal egalitarianism, the value of an outcome is the result of balancing total wellbeing and the badness of inequality. According to weighted egalitarianism, it is the result of aggregating people’s wellbeing while giving priority to the relatively worse off. Unlike communal egalitarianism, weighted egalitarianism escapes the levelling down objection and can be supported by a veil of ignorance argument. The two kinds of egalitarianism can agree in same number cases but disagree in different number cases. This poses a dilemma for weighted egalitarians. On the one hand, they have good reasons to accept limited principles of existence independence and hence a specific formula called “the geometric Gini”. On the other hand, the most straightforward application of the geometric Gini in different number cases yields counterintuitive verdicts which are at odds with egalitarian thinking. This suggests egalitarians should be communal rather than weighted egalitarians, meaning they have to give up on many promised benefits of the latter. We also see more clearly the choices we need to make if we want our value theory to reflect aversion to inequality in welfare.</blockquote>
+                    
+            <p class="paragraph_style_4"> A paper on uncertainty and the repugnant conclusion (joint work with Michal Masy)
+            
+            <a  href='javascript:void(0)' onclick="return upDown('abstract2')">[abstract]</a></p>
+                
+            <blockquote id='abstract2' class="paragraph_style_5" style='display:none'><i>Abstract</i>: The probable addition principle says that it is better to be more likely to exist with a good life. We examine the strength of this principle, its problems, and its role in recent arguments for the repugnant conclusion.</blockquote>
+             
+            <p class="paragraph_style_4"> A paper on the morality of Allais preferences
+                    
+            <a  href='javascript:void(0)' onclick="return upDown('abstract3')">[abstract]</a></p>
+                
+            <blockquote id='abstract3' class="paragraph_style_5" style='display:none'><i>Abstract</i>: There has been a long debate about the rationality of Allais preferences. This paper is about the ethics of Allais preferences. It shows that if Allais preferences track individual betterness, then we cannot hold on to independently plausible ethical principles: ex ante Pareto, statewise dominance, and anonymity. The paper shows that proponents of Allais preferences will find it difficult to reject these three principles. This suggests that Allais preferences cannot track individual betterness after all. In short, Allais preferences are bad for you.</blockquote>
+            
+            <p class="paragraph_style_4"> A paper on risk and infinite ethics
+                    
+            <a  href='javascript:void(0)' onclick="return upDown('abstract5')">[abstract]</a></p>
+                
+            <blockquote id='abstract5' class="paragraph_style_5" style='display:none'><i>Abstract</i>: This paper introduces a new puzzle for utilitarianism in infinite worlds. It shows that the principles of weak ex-ante Pareto and statewise dominance are incompatible with a nearly uncontroversial utilitarian claim about outcomes where infinitely many people exist. The principles at issue are then clarified and defended. The incompatibility means that utilitarianism is ex-ante/ex-post inconsistent in infinite worlds. It is well known that ex-ante/ex-post inconsistency is a source of problems for egalitarians and prioritarians in finite worlds.  It turns out that utilitarians share these problems. The paper then explains how the problem is an example of an “infinite free lunch” and how it is related to other problem cases for utilitarianism in infinite worlds.</blockquote>
+                    
+            <p class="paragraph_style_4"> A paper on transfinite transitivity and infinite ethics
+            
+            <a  href='javascript:void(0)' onclick="return upDown('abstract6')">[abstract]</a></p>
+                
+            <blockquote id='abstract6' class="paragraph_style_5" style='display:none'><i>Abstract</i>: This paper argues that the project of comparing infinite worlds in terms of betterness is even harder than philosophers have thought. In particular, it shows that controversial principles of continuity in some well-known impossibility theorems can be replaced by related but significantly more compelling principles of transfinite transitivity and transfinite acyclicity. These are natural infinite generalizations of transitivity and acyclicity, which are two well-established principles of value theory. Like continuity, transfinite transitivity and acyclicity are sensitive to the choice of a topology, here understood in terms of convergence and closeness. Two notions of convergence are discussed. The first main result is that, given transfinite transitivity and the first notion of convergence, it is impossible to combine a weak Pareto principle and finite anonymity. The second main result is that, given transfinite acyclicity and the second notion of convergence, it is impossible to combine strong Pareto and finite anonymity, impossible to combine transitivity and the Pigou Dalton principle, and impossible to accept an uncontroversial extension of utilitarianism to infinite worlds.</blockquote>
+                    
+            <p class="paragraph_style_4"> A paper on transfinite transitivity and rational choice theory
+                    
+            <a  href='javascript:void(0)' onclick="return upDown('abstract7')">[abstract]</a></p>
+                
+            <blockquote id='abstract7' class="paragraph_style_5" style='display:none'><i>Abstract</i>: This paper explores the relationship between rational choice theory and the principle of transfinite transitivity, a generalization of transitivity in contexts where our domain of evaluation is equipped with a notion of convergence. The interest of transfinite transitivity comes from its applications: in variable population ethics it can be used to argue that it is always worse to create a miserable life and that it is always better to create a happy life, and in infinite population ethics it can be used to establish the impossibility of combining a Pareto principle and a weak anonymity principle. This paper will argue that if transitivity can be supported by the role it plays in the theory of rational choice, then so can transfinite transitivity. In finite option sets, transitivity helps secure the existence of choiceworthy options, is implied by consistency conditions on permissible choice, and can be supported by money pump arguments. This paper shows that transfinite transitivity plays the same role in infinite compact sets, and that nothing else can plausibly play the same role in infinite noncompact sets. The role of compactness is clarified and defended. The distinctions developed in the paper are then applied to a classic infinite-decision puzzle, Satan’s Apple.</blockquote>
+                    
+            <p class="paragraph_style_4"> A paper on deontological constraints and ex-ante Pareto
+            
+            <a  href='javascript:void(0)' onclick="return upDown('abstract8')">[abstract]</a></p>
+                
+            <blockquote id='abstract8' class="paragraph_style_5" style='display:none'><i>Abstract</i>: Ex ante deontology seeks to combine standard deontic constraints on harming with the idea that acting in everyone’s interest is always right. I show that this approach faces serious problems in cases where agents need to make multiple decisions over time. I then argue that these problems force us to choose between orthodox deontology and broadly consequentialist views, and that we should opt for the latter.</blockquote>
+                    
+            <p class="paragraph_style_4"> A paper on deontic cycling and its discontents
+            
+            <a  href='javascript:void(0)' onclick="return upDown('abstract9')">[abstract]</a></p>
+                
+            <blockquote id='abstract9' class="paragraph_style_5" style='display:none'><i>Abstract</i>: I will show when and why commonsense deontological morality leads to deontic cycling: situations where, of three options x, y, z, it is true that y is permissible to choose over x in a pairwise choice, z is permissible to choose over y in a pairwise choice, but x is mandatory to choose over z in a pairwise choice. I will then argue that the most worrisome such cycles mean that commonsense deontology can sometimes tell us to do what is worse for individual people. I conclude that deontic cycling shows commonsense deontology to be not so much irrational as unacceptably inhumane.</blockquote>
+                    
+            <p class="paragraph_style_4"> A paper on incomparability and continuity
+            
+            <a  href='javascript:void(0)' onclick="return upDown('abstract10')">[abstract]</a></p>
+                
+            <blockquote id='abstract10' class="paragraph_style_5" style='display:none'><i>Abstract</i>: This paper introduces a novel argument against the claim that hard choices are explained by incomparability. The argument is that the existence of continuous dimensions of evaluation commits us to the existence of boundary items whose evaluative status incomparabilists are not well placed to explain. The paper also addresses issues relevant to that argument: continuity in value, vagueness, discreteness in evaluative domains, and the aggregation of heterogenous values.</blockquote>
+                    
+            <p></p>
+            <p class="paragraph_style_4"><i>If you are interested in reading any of my drafts, send me an email at kacper dot kowalczyk at ucl.ac.uk. I would be very grateful for any comments.</i><br></p>
+       
+                    
+            <p class="paragraph_style_3">Recent talks <br></p>
+            <p class="paragraph_style_4"> ‘Transfinite transitivity’, Ockham Society, Oxford, October 2019<br></p>
+            <p class="paragraph_style_4"> ‘Comments on Keith Hankins’s “Social Choice and the Tradeoff Between Utilizing and Imputing Information”’, Collective Intentions and the Act of Voting conference, Oxford, July 2019<br></p>
+            <p class="paragraph_style_4"> ‘Yet another argument against anti‑aggregation’, Formal Ethics Conference, Ghent, June 2019<br></p>
+            <p class="paragraph_style_4"> ‘Equality and population size’, Princeton Population Ethics Conference, Graduate Session, May 2019<br></p>
+            <p class="paragraph_style_4"> ‘Intrinsic value, extrinsic identity’, ISUS conference, Karlsruhe, July 2018<br></p>
+            <p class="paragraph_style_4"> ‘Intrinsic value, extrinsic identity’, CEPPA Graduate Conference, St Andrews, February 2018<br></p>
+            
+            <p class="paragraph_style_3">Other <br></p>
+            <p class="paragraph_style_4"> <a href="https://www.miesiecznik.znak.com.pl/dobroczynna-prokreacja/">'Dobroczynna prokreacja'</a>, Znak, October 2017, issue 749 (in Polish) (interview with Julian Savulescu)<br></p>
                     
               </div>
             </div>
@@ -95,7 +159,7 @@
         
             <!--TUTAJ PONIZEJ MOZESZ DOSTOSOWAC WYSOKOSC STRONY. TO JEST PROSTY KOD WIEC TAKIE RZECZY RECZNIE TRZEBA ROBIC-->
             
-            <div style="height: 2100px; line-height: px; " class="spacer">&nbsp;</div>
+            <div style="height: 1500px; line-height: px; " class="spacer">&nbsp;</div>
         </div>
           
         <div style="height: 150px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
@@ -106,6 +170,20 @@
     </div>
   
 
-
+<!-- Default Statcounter code for Personal website https://kacperkowalczyk.com
+-->
+<script type="text/javascript">
+var sc_project=12481723; 
+var sc_invisible=1; 
+var sc_security="2e17fc85"; 
+var sc_https=1; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript><div class="statcounter"><a title="Web Analytics Made Easy -
+StatCounter" href="https://statcounter.com/" target="_blank"><img
+class="statcounter" src="https://c.statcounter.com/12481723/0/2e17fc85/1/"
+alt="Web Analytics Made Easy - StatCounter"></a></div></noscript>
+<!-- End of Statcounter Code -->
 
 </body></html>
